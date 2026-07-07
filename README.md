@@ -29,7 +29,7 @@
 ### 1️⃣ Загрузка источников
 Скрипт читает файл:
 
-sources.txt
+`sources.txt`
 
 ✔ игнорирует пустые строки  
 ✔ игнорирует комментарии (`#`)
@@ -118,7 +118,7 @@ sources.txt
 
 ### 🔵 VLESS
 
-vless://uuid@host:port?params
+`vless://uuid@host:port?params`
 
 Поддерживает:
 - TLS / Reality
@@ -131,13 +131,13 @@ vless://uuid@host:port?params
 
 ### 🟣 Trojan
 
-trojan://password@host:port?params
+`trojan://password@host:port?params`
 
 ---
 
 ### 🟡 Hysteria2
 
-hy2://aith@host:port?params
+`hy2://aith@host:port?params`
 
 ---
 
@@ -165,11 +165,11 @@ hy2://aith@host:port?params
 
 ❌ добавляется в:
 
-blacklist_sources.txt
+`blacklist_sources.txt`
 
 ❌ удаляется из:
 
-sources.txt
+`sources.txt`
 
 ---
 
@@ -194,7 +194,7 @@ sources.txt
 
 Если есть файл:
 
-my_configs.txt
+`my_configs.txt`
 
 ✔ добавляется в итоговый список  
 ✔ проверяется на валидность  
